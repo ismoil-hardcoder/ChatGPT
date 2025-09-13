@@ -1,0 +1,260 @@
+.container {
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #121212;
+  color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+.gpt {
+  display: flex;
+  gap: 50px;
+  padding-left: 578px;
+}
+header {
+  background-color: #1f1f1f;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  color: #00ff99;
+  margin: 0;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: #00ff99;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 30px;
+  max-width: 900px;
+  margin: auto;
+}
+
+footer {
+  background-color: #1f1f1f;
+  color: #00ff99cc;
+  text-align: center;
+  padding: 15px;
+  width: 100%;
+  bottom: 0;
+  font-size: 0.9em;
+}
+
+.intro h2 {
+  margin-top: 0;
+}
+.chatbot {
+  background-image: url(../images/Chatgpt\ is\ writing.jpeg);
+  background: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Umumiy uslublar */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #121212;
+  color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #1f1f1f;
+  padding: 20px 200px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 255, 153, 0.3);
+}
+
+header h1 {
+  color: #00ff99;
+  margin: 0;
+  font-weight: 700;
+  font-size: 2.5em;
+}
+
+/* Navigatsiya */
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: #00ff99;
+  margin: 0 18px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1em;
+  transition: color 0.3s ease;
+}
+.good-section {
+  background-image: url(../images/Chatgpt\ is\ writing.jpeg);
+  background: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.header-gpt {
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a:hover,
+nav a:focus {
+  color: #00cc7a;
+  text-decoration: underline;
+}
+
+/* Asosiy qism */
+main {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+h2 {
+  color: #00ff99;
+  margin-bottom: 15px;
+}
+
+/* Ro‘yxatlar */
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+/* Aloqa formasi */
+form {
+  background-color: #222;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #00ff99aa;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: 600;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border-radius: 5px;
+  border: none;
+  background-color: #333;
+  color: #eee;
+  font-size: 1em;
+  resize: vertical;
+}
+
+button {
+  margin-top: 20px;
+  background-color: #00ff99;
+  color: #121212;
+  border: none;
+  padding: 12px 25px;
+  font-weight: 700;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover,
+button:focus {
+  background-color: #00cc7a;
+}
+
+.intro {
+  background-image: url(../images/Chatgpt\ is\ writing.jpeg);
+  background: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Footer */
+footer {
+  background-color: #1f1f1f;
+  color: #00ff99cc;
+  text-align: center;
+  padding: 15px 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  font-size: 0.9em;
+  box-shadow: 0 -2px 4px rgba(0, 255, 153, 0.3);
+}
+.gpt {
+  display: flex;
+  align-items: center; /* Vertikal markazlash */
+  gap: 10px; /* Rasm va matn orasida bo‘sh joy */
+  padding: 10px 20px;
+}
+.header-gpt {
+  display: flex;
+}
+.gpt img {
+  width: 50px; /* Kichikroq rasm */
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #00ff99;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.gpt img:hover {
+  transform: scale(1.1);
+}
+
+.gpt h1 {
+  font-size: 2rem;
+  color: #00ff99cc;
+
+  margin: 0;
+  user-select: none;
+}
+
+.contact-card:hover {
+  border-color: #3f88f3;
+  box-shadow: 0 0 5px rgba(63, 136, 243, 0.5);
+}
+
+/* Javobgarlik uchun (Responsive) */
+@media (max-width: 600px) {
+  nav a {
+    margin: 0 10px;
+    font-size: 1em;
+  }
+  main {
+    margin: 20px 10px;
+    padding: 0 10px;
+  }
+  form {
+    padding: 15px;
+  }
+  .header-gpt {
+    display: grid;
+    padding-left: 33px;
+  }
+}
