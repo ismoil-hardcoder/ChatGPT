@@ -10,6 +10,10 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.chatbot {
+  padding-bottom: 50px;
+}
 .gpt {
   display: flex;
   gap: 50px;
